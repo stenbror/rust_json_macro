@@ -66,7 +66,7 @@ macro_rules! json {
 
 // Entry point to test program
 fn main() {
-    println!("Hello, world!");
+    println!("Implemented json macro with unittests.  Run 'cargo test' to check!");
 
     let _res = json! ( null );
 
@@ -82,6 +82,8 @@ fn main() {
             }
         }
     );
+
+    println!("\r\n{:#?}", _desc);
 }
 
 
