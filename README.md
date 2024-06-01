@@ -2,7 +2,7 @@
 
 Just a simple implmentation of json macro for parsing from text to Rust objects.
 
-## Build and execute test and run program
+## To build, test and execute do as follows:
 
 1. Build project
 ```
