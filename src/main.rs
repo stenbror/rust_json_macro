@@ -11,7 +11,7 @@ enum Json {
     Object(Box<HashMap<String, Json>>)
 }
 
-// Implemet From Trait for JSon elements
+// Implement From Trait for JSon elements
 impl From<bool> for Json {
     fn from(b: bool) -> Json {
         Json::Boolean(b)
